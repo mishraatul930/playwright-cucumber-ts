@@ -1,0 +1,409 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;valid-login-attempts",
+        "keyword": "Scenario Outline",
+        "line": 10,
+        "name": "Valid Login attempts",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 43343625
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 335372000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on the login page",
+            "match": {
+              "location": "src/stepDefinitions/loginSteps.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 119406790
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User enters \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "src/stepDefinitions/loginSteps.ts:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3706167
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should be redirected to the dashboard page",
+            "match": {
+              "location": "src/stepDefinitions/loginSteps.ts:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4439792
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;valid-login-attempts",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Valid Login attempts",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 25716166
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 442891584
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on the login page",
+            "match": {
+              "location": "src/stepDefinitions/loginSteps.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 111423499
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User enters \"problem_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "src/stepDefinitions/loginSteps.ts:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1400000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should be redirected to the dashboard page",
+            "match": {
+              "location": "src/stepDefinitions/loginSteps.ts:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2743999
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;valid-login-attempts",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Valid Login attempts",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 26484249
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 585607000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on the login page",
+            "match": {
+              "location": "src/stepDefinitions/loginSteps.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 80405416
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User enters \"performance_glitch_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "src/stepDefinitions/loginSteps.ts:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1288583
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should be redirected to the dashboard page",
+            "match": {
+              "location": "src/stepDefinitions/loginSteps.ts:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2301334
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;valid-login-attempts",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Valid Login attempts",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 25477249
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 584301833
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on the login page",
+            "match": {
+              "location": "src/stepDefinitions/loginSteps.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 110945500
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User enters \"error_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "src/stepDefinitions/loginSteps.ts:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1422083
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should be redirected to the dashboard page",
+            "match": {
+              "location": "src/stepDefinitions/loginSteps.ts:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2438708
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;valid-login-attempts",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Valid Login attempts",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 26574666
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 272642041
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on the login page",
+            "match": {
+              "location": "src/stepDefinitions/loginSteps.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 108554458
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User enters \"visual_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "src/stepDefinitions/loginSteps.ts:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1320750
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should be redirected to the dashboard page",
+            "match": {
+              "location": "src/stepDefinitions/loginSteps.ts:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2305334
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;invalid-login-attempts",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "Invalid Login attempts",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 26226958
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 221785666
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "User is on the login page",
+            "match": {
+              "location": "src/stepDefinitions/loginSteps.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 76176999
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "User enters \"locked_out_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "src/stepDefinitions/loginSteps.ts:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1678167
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "User should see an error message",
+            "match": {
+              "location": "src/stepDefinitions/loginSteps.ts:20"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2169834
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "features/login.feature"
+  }
+]
