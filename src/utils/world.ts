@@ -5,6 +5,7 @@ export interface CustomWorld extends World {
   browser?: Browser;
   context?: BrowserContext;
   page?: Page;
+  videoDir?: string;
 }
 
 export class CustomWorld extends World implements CustomWorld {
